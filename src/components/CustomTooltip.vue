@@ -27,16 +27,19 @@ export default {
       type: Number,
       default: 350
     },
+    // tooltip 弹出位置
     placement: {
       type: String,
       default: 'top'
     },
+    // tooltip 位置偏移量
     offset: {
       type: Array,
       default: () => {
         return [0, 15]
       }
     },
+    // 是否隐藏小箭头
     hideArrow: {
       type: Boolean,
       default: false
