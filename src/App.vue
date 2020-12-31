@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <span content="tooltip 显示的内容" class="tooltip-content">显示 tooltip</span>
+    <el-button content="tooltip 显示的内容" class="tooltip-content">显示 tooltip</el-button>
     <CustomTooltip
       ref="tooltipRef"
       :open-delay="800"
